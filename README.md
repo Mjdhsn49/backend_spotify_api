@@ -6,7 +6,7 @@
 * pip install -r requirements.txt
 
 
-### Get Spotify credentials by visiting dashboard ---> https://developer.spotify.com/dashboard/
+### Get Spotify credentials ---> https://developer.spotify.com/dashboard/
 
 * Place the client_id in main.py at line 14 and secret_key in line 15
 
