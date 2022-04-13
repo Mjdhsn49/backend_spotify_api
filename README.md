@@ -8,7 +8,7 @@
 
 ### Get Spotify credentials ---> https://developer.spotify.com/dashboard/
 
-* Place the client_id in main.py at line 14 and secret_key in line 15
+* Place the client_id in main.py at line 13 and secret_key in line 14
 
 ## Run 
 
