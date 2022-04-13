@@ -10,8 +10,8 @@ app = FastAPI()
 #Credentials
 BASE_URI = "https://api.spotify.com/v1"
 TOKEN_URI ='https://accounts.spotify.com/api/token'
-client_id = 'c6c918d70cff4e9bb8e4dac6f020a074' # Your client id
-client_secret = '0521dcf6acce43fa8c05b4be25094cc4' # Your secret
+client_id = '' # Put your client id
+client_secret = '' # put your secret key
 client_creds =f"{client_id}:{client_secret}"
 
 #BASE64 encoding
@@ -141,4 +141,6 @@ async def system_history(request: Request):
         "message":"no history found!"
     }
 
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=3000)
     
